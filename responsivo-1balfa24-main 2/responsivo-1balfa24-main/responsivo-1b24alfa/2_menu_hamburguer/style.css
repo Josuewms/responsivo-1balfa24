@@ -1,0 +1,25 @@
+.dropdown{
+    display: none;
+}
+@media (max-width: 980px){
+    .dropdown{
+        display: block;
+        background: grey;
+        text-algin: center;
+    }
+    .dropdown a{
+        color: with;
+        line-heigth: 30px;
+        text-decoration: none;
+    }
+    .dropdown i{
+        fonte-size: 20px;
+    }
+    .dropdown .dropdown-content{
+        display: none;
+    }
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
+li{list-style: none;}
+}
